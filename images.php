@@ -32,7 +32,8 @@ echo "<script>
 	var type = 'dummy';
 	var i = 1;
 	var j = 1;
-		
+	var n = 5;
+	
 	var images = [];";
  if($result->num_rows > 0)
  {
@@ -42,7 +43,6 @@ echo "<script>
 		$i = $i + 1;
 	}
  }
- echo "n=images.length;";
  echo "function myFunction() {
 	if (i <= n) 
 	{
